@@ -1,0 +1,87 @@
+/* color 
+gris foncé #838383
+gris clair #ad9d9d
+rose foncé #d9adad
+rose clair #fccbcb
+
+*/
+body,html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/*header*/
+
+.top-container {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  padding-bottom: 10px;
+
+  background-color:#ad9d9d ;
+  
+  padding-top : 40px;
+ 
+  height: 200px;
+  width: 100%;
+}
+
+h1 {
+ 
+  font-family: 'Grandstander', cursive;;
+}
+
+.top-container {
+}
+
+.top-container p {
+  font-size: 1.5rem;
+  margin: 15px 0;
+  font-style: italic;
+}
+
+img {
+  justify-self: flex-end;
+
+  width: 180px;
+  margin-right: 3rem;
+  
+  border-radius: 100%;
+  border: 2px solid #d17b7b;
+  margin-left: 2rem;
+}
+
+
+@media screen and (max-width:590px) {
+  img {
+    width: 120px;
+    justify-self: center;
+  
+  }
+  .top-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    padding-top: 20px;
+    height: 250px;
+
+    text-align: center;
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  .top-container p {
+    margin: 5px 0;
+
+}
+
+}
+
+/*section 1*/
