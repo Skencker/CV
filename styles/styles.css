@@ -136,7 +136,13 @@ a:hover {
 
 .image {
   margin: auto;
+  
 }
+
+.logo img:hover {
+  background-color:#fccbcb;
+} 
+
 
 
 
