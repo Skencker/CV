@@ -166,7 +166,7 @@ a:hover {
     justify-content: center;
     padding-bottom: 20px;
 
-    height: 200px;
+    height: 250px;
   }
 
   .bottom-container h3 {
@@ -241,7 +241,7 @@ a:hover {
   }
 
   .bottom-container {
-    height: 150px;
+    height: 200px;
   }
 }
 
