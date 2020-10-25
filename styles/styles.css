@@ -12,6 +12,7 @@ html {
   box-sizing: border-box;
   font-family: "Roboto Condensed", sans-serif;
   color: #838383;
+  background-color: #fdfdfc;
 }
 
 /*header*/
@@ -22,14 +23,15 @@ html {
   grid-template-rows: 1fr;
   padding-bottom: 10px;
 
-  background-color: #ad9d9d;
+  background-image: linear-gradient(to top, #fdfdfc 50%, #a8a894 100%);
 
   padding-top: 40px;
 
   height: 200px;
   width: 100%;
 
-  box-shadow: 0px 3px 4px #838383;
+
+  border: none;
 }
 
 h1 {
@@ -73,10 +75,7 @@ h2 {
   color: #d65e5e;
 }
 
-h3 {
-  font-size: 1.6rem;
-  margin-bottom: 0;
-}
+
 
 .exp p {
   margin-top: 10px;
@@ -113,15 +112,18 @@ a:hover {
   grid-template-columns: 1fr 1.5fr;
   grid-template-rows: 1fr;
 
-  background-color: #ad9d9d;
+  background-image: linear-gradient(to bottom, #fdfdfc 50%, #a8a894 100%);
 
-  height: 300px;
+  height: 200px;
   width: 100%;
 }
 
 .bottom-container h3 {
-  align-self: center;
+  padding-top: 2rem;
   justify-self: flex-end;
+  color: #838383;
+  font-size: 2.5rem;
+
 }
 
 .logo {
